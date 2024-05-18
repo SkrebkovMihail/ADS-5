@@ -85,6 +85,5 @@ int eval(std::string pref) {
                 break;
         }
     }
-
     return stack.pop();
 }
