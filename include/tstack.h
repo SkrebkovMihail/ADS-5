@@ -6,11 +6,11 @@
 
 template <typename T, const int CAPACITY>
 class TStack {
-private:
+ private:
     T arr[CAPACITY];
     int top;
 
-public:
+ public:
     TStack() : top(-1) {}
 
     bool isEmpty() const { return top == -1; }
